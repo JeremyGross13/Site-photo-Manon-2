@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title> Contact </title>
+        <meta name="description" content="Manon Chalony's Photographies"/>
+        <meta name="keywords" content="photo, photographie, shooting"/>
+        <meta name="author" content="Jérémy Gross" />
+        <link rel="stylesheet" href="style4.css"/>
+        <link rel="icon" href="img/icon.png" />
+        <!--<a href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by Pixel perfect - Flaticon</a>-->    </head>
+    <body>
+        <nav>
+            <div class="menu">
+                <input type="checkbox" id="check">
+                <div class="logo"><a href="index.html">Manon Chalony</a></div>
+                <ul>
+                    <label class="button cancel" for="check"><img id="cancel-button" src="img/close.png" alt="X"></label>                
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="about.html"> About </a></li>
+                    <li><a href="services.html"> Services </a></li>
+                    <li><a href="contact.html"> Contact </a></li>
+                </ul>
+                <label class="button bars" for="check"><img id="menu-button" src="img/menu.png" alt="-"></label>
+            </div>
+        </nav>
+        <section>
+            <form id="form" action="mailto:jeremspam1307@gmail.com" method="post">
+                
+                <div class="input-group">
+                    <input type="text" id="name" required class="input">
+                    <label for="name" class="input-label">Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="email" required class="input">
+                    <label for="email" class="input-label">Email adress</label>
+                </div>
+                <textarea name="message">
+                    Message                    
+                </textarea>
+                               
+                <input id="submit-btn" type="submit" value="Send"/>
+            </form>
+        </section>
+    </body>
+</html>
