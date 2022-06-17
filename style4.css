@@ -116,10 +116,12 @@ section{
     flex-direction: row;
     justify-content: right;
     width: 33%;
+    
 }
 
 .img-intro img{
-    width: 50%;
+    max-height: 100%;
+    width: auto;
 }
 
 .text-intro{
@@ -223,5 +225,18 @@ section{
 
     #check:checked ~ ul{
         left: 0;
+    }
+
+    .intro{
+        flex-direction: column;
+    }
+
+    .img-intro{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .text-intro{
+        width: 100%;
     }
 }
