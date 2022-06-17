@@ -100,6 +100,48 @@ nav label .bars{
 
 .icons{
     display: flex;
+    column-gap: 25px;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: #ffffff;
+    border-radius: 50%;
+    outline: 2px solid #000;
+    transition-property: 
+    outline-offset, outline-color,
+    background-color;
+    transition-duration: .25s;
+}
+
+.icon:hover{
+    outline-offset: 4px;
+}
+
+.icon:hover img{
+    animation: snake .25s;
+}
+
+.img-insta{
+    width: 40px;
+}
+
+a:hover{
+    background: #a02d76 ;
+    outline-color: #a02d76;
+}
+
+@keyframes snake{
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
 }
 
 /*--------------------------- MEDIA QUERIES ----------------------------------*/
