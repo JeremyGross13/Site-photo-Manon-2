@@ -272,7 +272,9 @@ footer{
     #check:checked ~ ul{
         left: 0;
     }
+}
 
+@media (max-width:1000px){
     .intro{
         flex-direction: column;
     }
