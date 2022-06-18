@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
 
 *{
     margin: 0;
@@ -152,17 +154,29 @@ section{
     width: 50%;
 }
 
+.trt-vertical{
+    background-color: #000;
+    width: 1px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
 .text-form{
     width: 50%;
     padding: 40px 5% 40px 5%;
-    background-color: #222222;
 }
 
 p{
-    color: #ffffff;
+    columns: 300px auto;
+    color: #000;
     font-family: 'Acme', sans-serif;
     font-size: 20px;
 }
+
+.img-service{
+    width: 400px;
+}
+
 
 #form{
     padding: 40px 5% 40px 5%;
@@ -195,6 +209,40 @@ textarea{
     background-color: transparent;
     outline: 2px solid #000;
 }
+
+/*------------------------------ FOOTER --------------------------------------*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.trt{
+    background-color: #000;
+    width: 86%;
+    height: 1px;
+    border-radius: 5px;
+    margin: 0 7% 0 7%;
+}
+
+.text-footer{
+    text-align: center;
+    padding: 40px 0 40px 0;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text-footer a{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+
+/*------------------------- MEDIA QUERIES -----------------------------*/
 
 
 
@@ -241,5 +289,17 @@ textarea{
 
     #check:checked ~ ul{
         left: 0;
+    }
+
+    section{
+        flex-direction: column-reverse;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    .text-form{
+        width: 100%;
     }
 }
