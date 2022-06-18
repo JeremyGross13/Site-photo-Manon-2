@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
 
 *{
     margin: 0;
@@ -39,7 +41,7 @@ nav .menu{
 }
 
 .menu .logo a{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     font-family: 'Joan', serif;
     text-decoration: none;
@@ -54,7 +56,7 @@ nav .menu{
 .menu ul a{
     margin: 0 8px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     color: #31344b;
     font-weight: 400;
     font-family: 'Joan', serif;
@@ -346,6 +348,20 @@ footer{
     text-decoration: none;
 }
 
+p a{
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+p a:hover{
+    transition: 0.4s;
+    color: #3498ab;
+}
+
+/*-------------------------- MEDIA QUERIES ---------------------------*/
+
 @media (max-width:800px){
     .menu ul {
         display: block;
@@ -397,4 +413,62 @@ footer{
         columns: 400px auto;
         flex-direction: column;
     }
+
+    .card2{
+        top: 40px;
+    }
+
+    .card3{
+        top: 80px;
+    }
+
+    .card4{
+        top: 80px;
+    }
+
+    .card5{
+        top: 120px;
+    }
+    .card6{
+        top: 160px;
+    }
+
+    .card7{
+        top: 160px;
+    }
+
+    .card8{
+        top: 200px;
+    }
+
+    .card9{
+        top: 240px;
+    }
+
+    .card10{
+        top: 260px;
+    }
+
+    .card11{
+        top: 300px;
+    }
+
+    .card12{
+        top: 340px;
+    }
+
+    .card13{
+        top: 340px;
+    }
+
+    .card14{
+        top: 660px;
+    }
+
+    .card15{
+        top: 980px;
+        margin-bottom: 40px;
+    }
 }
+
+

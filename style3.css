@@ -42,7 +42,7 @@ nav .menu{
 }
 
 .menu .logo a{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     font-family: 'Joan', serif;
     text-decoration: none;
@@ -57,7 +57,7 @@ nav .menu{
 .menu ul a{
     margin: 0 8px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     color: #31344b;
     font-weight: 400;
     font-family: 'Joan', serif;
@@ -151,35 +151,45 @@ section{
 }
 
 .form{
+    margin-right: -10%;
     width: 50%;
 }
 
-.trt-vertical{
-    background-color: #000;
-    width: 1px;
-    border-radius: 50%;
-    margin-top: 40px;
-}
-
 .text-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 50%;
     padding: 40px 5% 40px 5%;
 }
 
-p{
+.text-form p{
     columns: 300px auto;
     color: #000;
     font-family: 'Acme', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+p a{
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+p a:hover{
+    transition: 0.4s;
+    color: #3498ab;
 }
 
 .img-service{
+    padding-top: 40px;
     width: 400px;
 }
 
 
 #form{
-    padding: 40px 5% 40px 5%;
+    padding: 40px 5% 0px 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -221,7 +231,7 @@ footer{
 
 .trt{
     background-color: #000;
-    width: 86%;
+    width: 150px;
     height: 1px;
     border-radius: 5px;
     margin: 0 7% 0 7%;

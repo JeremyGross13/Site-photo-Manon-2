@@ -40,7 +40,7 @@ nav .menu{
 }
 
 .menu .logo a{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     font-family: 'Joan', serif;
     text-decoration: none;
@@ -56,7 +56,7 @@ nav .menu{
     margin: 0 8px;
     text-decoration: none;
     font-family: 'Joan', serif;
-    font-size: 25px;
+    font-size: 22px;
     color: #31344b;
     font-weight: 400;
     display: inline-flex;
@@ -79,7 +79,7 @@ nav .menu{
 }
 
 .menu ul a:hover{
-    color: #3498db;
+    color: #3498ab;
 }
 
 nav label.button{
@@ -137,7 +137,19 @@ article{
 
 p{
     font-family: 'Acme', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+p a{
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+p a:hover{
+    transition: 0.4s;
+    color: #3498ab;
 }
 
 .text-email{
@@ -206,7 +218,7 @@ footer{
 
 .trt{
     background-color: #000;
-    width: 86%;
+    width: 150px;
     height: 1px;
     border-radius: 5px;
     margin: 0 7% 0 7%;
