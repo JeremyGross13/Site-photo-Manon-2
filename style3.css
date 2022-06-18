@@ -183,8 +183,15 @@ p a:hover{
 }
 
 .img-service{
-    padding-top: 40px;
+    margin-top: 40px;
     width: 400px;
+    box-shadow: 10px 10px 0 #b0b0b5;
+    transition: 0.4s;
+}
+
+.img-service:hover{
+    box-shadow:  0 0 0 #ffffff;
+    transform: translateX(10px) translateY(10px);
 }
 
 
@@ -206,6 +213,11 @@ p a:hover{
     background-color: transparent;
     outline: 2px solid #000;
     cursor: pointer;
+}
+
+#submit-btn:hover{
+    transition: 0.4s;
+    color: #3498ab;
 }
 
 textarea{
