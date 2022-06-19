@@ -406,6 +406,10 @@ p a:hover{
     #check:checked ~ ul{
         left: 0;
     }
+
+    .card{
+        width: 350px;
+    }
 }
 
 @media (max-width:1300px){
