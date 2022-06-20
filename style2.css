@@ -330,4 +330,6 @@ footer{
     .text-form{
         width: 100%;
     }
+
+    .img-service{box-shadow: none;}
 }
