@@ -331,5 +331,11 @@ footer{
         width: 100%;
     }
 
-    .img-service{box-shadow: none;}
+    .img-service{
+        box-shadow: none;
+    }
+
+    .img-service:hover{
+        transform: none;
+    }
 }

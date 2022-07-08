@@ -292,6 +292,7 @@ section{
 .card__title{
     color: #6a515e;
     line-height: 15px;
+    text-transform: uppercase;
 }
 
 .card__subtitle{
@@ -306,11 +307,17 @@ section{
     transition: opacity .05  5s;
 }
 
+.card__description__visible{
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity .05  5s;
+}
+
 .card:hover .card__content{
     transform: translateY(0);
 }
 
-.card:hover .card__description{
+.card:hover .card__description__visible{
     opacity: 1;
     transition-delay: .25s;
 }

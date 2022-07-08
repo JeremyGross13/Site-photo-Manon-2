@@ -156,6 +156,10 @@ p a:hover{
     padding: 40px 5% 0 5%;
 }
 
+.text-email p{
+    text-align: center;
+}
+
 .icons{
     display: flex;
     column-gap: 25px;
@@ -191,8 +195,8 @@ p a:hover{
 }
 
 .instagram:hover{
-    background: #a02d76 ;
-    outline-color: #a02d76;
+    background: #f56040 ;
+    outline-color: #f56040;
 }
 
 .gmail:hover{
